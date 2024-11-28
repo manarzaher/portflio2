@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="style.css" rel="stylesheet" type="text/css" media="all"/>
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100&family=Prompt:wght@300;400;500;600&family=Tilt+Warp&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- AOS for Animation -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+    />
+    <!-- Glidejs -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.theme.css"
+    />
+    <title>SKY Group</title>
+    <style>
+      .header {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(0, 0, 19);
+    z-index: 1;
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 996px) {
+    .header {
+        min-height: 60vh;
+    }
+
+    .header img {
+        width: 50rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .header img {
+        width: 40rem;
+    }
+}
+
+@media only screen and (max-width: 567px) {
+    .header {
+        min-height: 100vh;
+    }
+
+    .header img {
+        width: 35rem;
+    }
+}
+    </style>
+</head>
+<body>
+  <header id="home" class="header">
+    <!-- Navigation -->
+    <nav class="nav">
+      <div class="navigation container">
+        <div class="logo">
+          <h1> <span>Sky Group</span></h1>
+        </div>
+        <div class="menu">
+          <div class="top-nav">
+            <div class="logo">
+              <h1><span>Sky Group</span></h1>
+            </div>
+
+            <div class="close">
+              <i class="fas fa-times"></i>
+            </div>
+          </div>
+
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link scroll-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="about.html" class="nav-link scroll-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="servicse.html" class="nav-link scroll-link">Services</a>
+            </li>
+ 
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link scroll-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="hamburger">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero -->
+    <div class="hero">
+      <h3>welcome, We are</h3>
+      <h1>SIAS Team Definition </h1>
+      <h4>And We are a <span id="type1"></span></h4>
+      <a href="#">Hire </a>
+    </div>
+
+    <img style="position: absolute;" src="img/i.webp" alt="" />
+
+    <!-- icons -->
+    <div class="icons">
+      <span><i class="fab fa-facebook-f"></i></span>
+      <span><i class="fab fa-instagram"></i></span>
+      <span><i class="fab fa-twitter"></i></span>
+    </div>
+
+
+  </header>
+  
+  <section class="section about" id="about">
+    <div class="title">
+      <h1>who are we</h1>
+    </div>
+    <div class="about-center container">
+      <div class="left">
+        <img src="img/i1.png" alt="" />
+      </div>
+      <div class="right">
+        <h1>We are  <span id="type1"></span></h1>
+        <p>
+          A group specialized in written works (literary writings) and engineering projects in various engineering disciplines such as architecture and software engineering.
+        </p>
+        <a href="" class="btn">Download CV</a>
+      </div>
+    </div>
+</section>
+  
+
+<section class="section theme" id="services">
+  <div class="title">
+    <h1>Our services</h1>
+  </div>
+  <div class="services-center container">
+    <div class="service service-left">
+      <span><i class="fab fa-accusoft"></i></span>
+      <h2>Web Design</h2>
+      <p>
+        Create and design various web pages                    
+      </p>
+    </div>
+    <div class="service service-right">
+      <span><i class="fas fa-book"></i></span>
+      <h2>Functional Writings</h2>
+      <p>
+        Writing research papers, research proposals, letters of recommendation and proofreading for research 
+      </p>
+    </div>
+    <div class="service service-top">
+      <span><i class="fas fa-chess-board"></i></span>
+      <h2>AutoCAD layout</h2>
+      <p>
+        Create AutoCAD plans for homes 
+      </p>
+    </div>
+    <div class="service service-bottom">
+      <span><i class="fas fa-chair"></i></span>
+      <h2>interior design</h2>
+      <p>
+        Create a complete interior design with house layout
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- Skills -->
+<section class="section skills" id="skills">
+  <div class="title">
+    <h1>Available skills</h1>
+  </div>
+  <div class="skills-center container">
+    <div class="skills-left " >
+      <div class="skills-box">
+        <h4>programming languages</h4>
+        <div class="skills-ilt">
+          <div class="skills-bar programming"></div>
+          <span>87%</span>
+        </div>
+      </div>
+      <div class="skills-box">
+        <h4>sql server</h4>
+        <div class="skills-ilt">
+          <div class="skills-bar sql"></div>
+          <span>80%</span>
+        </div>
+      </div>
+      <div class="skills-box">
+        <h4>literary review</h4>
+        <div class="skills-ilt">
+          <div class="skills-bar review"></div>
+          <span>90%</span>
+        </div>
+      </div>
+      <div class="skills-box">
+        <h4>AutoCAD</h4>
+        <div class="skills-ilt">
+          <div class="skills-bar AutoCAD"></div>
+          <span>95%</span>
+        </div>
+      </div>
+      <div class="skills-box">
+        <h4>Inkscape</h4>
+        <div class="skills-ilt">
+          <div class="skills-bar Inkscape"></div>
+          <span>95%</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="right" >
+      <h3>The skills and experience available in the team</h3>
+      <p>
+        Here we have collected for you some of the basic experiences that exist within the team, which make it capable and highly prepared to implement all requests and projects.
+
+      </p>
+
+      <a href="#" class="btn">Tead more</a>
+    </div>
+  </div>
+</section>
+<section class="section contact" id="contact">
+  <div class="title">
+    <h1>Connect with us</h1>
+  </div>
+  <div class="contact-center container">
+    <div class="left">
+      <h2>Get in Touch</h2>
+      <p>
+        Lorem ipsum , dolor sit amet consectetur adipisicing elit . Ea
+        numquam officia , quibusdam id voluptate cupiditate nam et vero
+        quaerat magnam . quibusdam id voluptate cupiditate nam et vero
+        quaerat magnam .
+      </p>
+
+      <div>
+        <span class="icon"><i class="fas fa-user"></i></span>
+        <span class="content">
+          <h3>Name</h3>
+          <span>Sky Group</span>
+        </span>
+      </div>
+      <div>
+        <span class="icon"><i class="fas fa-envelope"></i></span>
+        <span class="content">
+          <h3>Email</h3>
+          <span>s.g1311@gmail.com</span>
+        </span>
+      </div>
+      <div>
+        <span class="icon"><i class="fas fa-map-marker-alt"></i></span>
+        <span class="content">
+          <h3>Address</h3>
+          <span>Gaza </span>
+        </span>
+      </div>
+    </div>
+
+    <div class="right" >
+      <form action="" class="form">
+        <h2>message to us</h2>
+        <div>
+          <input type="text" placeholder="Name" />
+          <input type="email" placeholder="Email" />
+        </div>
+        <input type="text" placeholder="Subject" />
+        <textarea cols="10" rows="10" placeholder="Describe Project">
+        </textarea>
+        <a href="" class="btn">Send message</a>
+      </form>
+    </div>
+  </div>
+</section>
+  <footer>
+    <p>&copy; 2024 All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
